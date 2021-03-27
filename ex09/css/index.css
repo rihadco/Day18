@@ -6,11 +6,9 @@ body {
 	margin: 0;
 	float: left;
 }
-
 * {
 	box-sizing: border-box;
 }
-
 header {
 	background-color: #35424a;
 	border-bottom: 4px solid #e84a1d;
