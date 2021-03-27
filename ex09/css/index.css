@@ -1,0 +1,209 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #35424a;
+	border-bottom: 4px solid #e84a1d;
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.container {
+	width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0;
+	padding: 30px 0px;
+	line-height: 1em;
+}
+
+header #branding h1 span.highlight {
+	color: #e84a1d;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	margin: 34px 0px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+header nav ul li:last-child {
+	margin-right: 0;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+header nav ul li.current a {
+	color: #e84a1d;
+}
+
+#showcase {
+	width: 100%;
+	height: 545px;
+	background-image: url(../img/gigi-logo.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: grayscale(100%);
+	display: block;
+	float: left;
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+
+#showcase:after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 0;
+}
+
+#showcase .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+#showcase .container h1 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0px 0px 50px;
+}
+
+#showcase .container p {
+	font-size: 20px;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+#newsletter {
+	background-color: #35424a;
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+#newsletter h1 {
+	float: left;
+	margin: 0;
+	color: #fff;
+	float: left;
+	margin: 39px 0px;
+	color: #fff;
+}
+
+#newsletter form {
+	float: right;
+	margin: 30px 0px;
+}
+
+#newsletter form input {
+	height: 36px;
+	width: 250px;
+	border: 0;
+	background-color: #fff;
+	padding: 10px;
+	outline: none;
+}
+
+#newsletter form button {
+	height: 38px;
+	color: #fff;
+	background-color: #e84a1d;
+	border: 1px solid #e84a1d;
+	padding: 0px 15px;
+	cursor: pointer;
+	outline: none;
+}
+
+#boxes {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	padding: 50px 0px;
+	background-color: #f4f4f4;
+}
+
+#boxes .box {
+	text-align: center;
+	float: left;
+	width: 33.333%;
+	padding: 0px 15px;
+}
+
+#boxes .box img {
+	width: 100px;
+	height: 100px;
+}
+
+#boxes .box p {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	color: #fff;
+	background-color: #e84a1d;
+    padding: 30px 0px;
+}
+
+footer p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1em;
+}
